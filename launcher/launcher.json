@@ -1,0 +1,17 @@
+{
+  "title": "Periodic Table 2002",
+  "repo": "sp00nznet/periodictable-recomp",
+  "accent": "#c0504d",
+  "note": {
+    "windows": "The build takes about 3 minutes and 300 MB. Python and the Visual Studio Build Tools are installed if they are missing; the Build Tools are about 3 GB and add 15 to 30 minutes, and Windows asks for permission once. Point it at your 'Periodic Table 2002.msi' or its installed folder."
+  },
+  "game": {
+    "name": "Periodic Table 2002 1.2.1",
+    "files": ["Periodic Table 2002.msi|Periodic Table 2002.msi"]
+  },
+  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "pcrecomp-periodictable", "dir": "pcrecomp" }],
+  "setup": {
+    "windows": ["cmd", "/c", "Setup.cmd", "-Yes", "-GameDir", "{game}"]
+  },
+  "play": "Periodic Table 2002.lnk"
+}
