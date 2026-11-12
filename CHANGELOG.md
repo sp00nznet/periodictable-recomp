@@ -1,5 +1,19 @@
 # Changelog
 
+All notable changes to this project. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/);
+versions follow [SemVer](https://semver.org/).
+
+## [Unreleased]
+
+### Added
+- `CONTRIBUTING.md`, `CONTRIBUTORS.md`, `docs/building.md` (the step-by-step
+  route and the command line, moved out of the README), `docs/testing.md`.
+- `setup.sh`, which says there is no Linux or macOS build yet and exits.
+
+### Changed
+- README in the house order; Status says what today's harness reruns show.
+- `NOTICE` is now `NOTICE.md`.
+
 ## [0.1.0] - 2026-11-12
 
 ### Added

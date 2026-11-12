@@ -1,6 +1,9 @@
 # Roadmap
 
 ## Next
+- Make the harness steady: reruns differ in the caption and menu bar
+  (window activation), a different step each run. Capture the client area,
+  or activate both windows the same way, and get back to 3 of 3 every run.
 - Check the rest of the program against the original: File > Print Element
   Info and Print Chart (print to a file printer and compare), Help > About,
   the Key form, Help > Check for Update (msinet; offline it says "You are not
