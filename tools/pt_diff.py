@@ -15,8 +15,8 @@ import rp  # noqa: E402
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GAME = os.path.join(ROOT, 'game')
 EXE = os.path.join(GAME, 'Periodic_Table_2002.exe')
-HOST = (sys.argv[sys.argv.index('--recomp') + 1] if '--recomp' in sys.argv
-        else os.path.join(ROOT, 'build', 'periodictablerecomp.exe'))
+HOST = os.path.abspath(sys.argv[sys.argv.index('--recomp') + 1] if '--recomp' in sys.argv
+                       else os.path.join(ROOT, 'build', 'periodictablerecomp.exe'))
 OUT = os.path.join(ROOT, 'work', 'diff')
 
 
