@@ -30,8 +30,7 @@ or another GPL project.
 ## Where a fix belongs
 
 - A bug in the lifter, the catalog, `vb6.py` or the native32 runtime belongs
-  in [pcrecomp](https://github.com/sp00nznet/pcrecomp) (today on branch
-  `pcrecomp-periodictable`), not here.
+  in [pcrecomp](https://github.com/sp00nznet/pcrecomp), not here.
 - A fix to the program itself is a patch in `run_lift.py`, with a comment
   that says what it fixes and why.
 - A wall you got past goes in `docs/bringup.md`: what it looked like, what it

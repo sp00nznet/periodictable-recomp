@@ -9,7 +9,7 @@ Ninja come with it), and the toolkit beside this folder:
 
 ```
   some-folder\
-    pcrecomp\        <- git clone -b pcrecomp-periodictable https://github.com/sp00nznet/pcrecomp
+    pcrecomp\        <- git clone https://github.com/sp00nznet/pcrecomp
     periodictable\   <- this repository
 ```
 

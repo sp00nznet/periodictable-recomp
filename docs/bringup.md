@@ -1,7 +1,7 @@
 # Bring-up: Periodic Table 2002, pcrecomp's first Visual Basic 6 program
 
 How a native-code VB6 exe came up on `native32`, in the order things broke.
-The toolkit half is on pcrecomp branch `pcrecomp-periodictable`
+The toolkit half is in pcrecomp `main`
 (`tools/pe/vb6.py`, `runtime/native32/vb6rt.c`).
 
 ## The download

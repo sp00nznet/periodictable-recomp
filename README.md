@@ -7,9 +7,8 @@ own VB6 runtime, `msvbvm60.dll`, runs beside it as a native module, with the
 program's OCX controls. It runs the author's code; it is not a rewrite. It is
 pcrecomp's first Visual Basic program.
 
-Built on the [pcrecomp](https://github.com/sp00nznet/pcrecomp) toolchain,
-branch **`pcrecomp-periodictable`** (the VB6 runtime support, not merged into
-`main` yet), following its shared house style like the other
+Built on the [pcrecomp](https://github.com/sp00nznet/pcrecomp) toolchain
+(`main`, which has the VB6 runtime support), following its shared house style like the other
 [pcrecomp projects](https://github.com/sp00nznet/pcrecomp#the-projects-that-built-this).
 
 ![Iron, after clicking Fe](docs/screenshots/element-iron.png)
@@ -32,8 +31,8 @@ nothing, and takes the program and its four OCX controls from it.
 3. Run it with the **`Periodic Table 2002`** shortcut in that folder.
 
 The script asks before installing anything (Python, `pefile` and `capstone`,
-Git, the Visual Studio 2022 Build Tools), clones pcrecomp's
-`pcrecomp-periodictable` branch beside this folder, asks where the .msi is
+Git, the Visual Studio 2022 Build Tools), clones pcrecomp
+`main` beside this folder, asks where the .msi is
 (`-GameDir <path>` skips the question, `-Yes` answers yes to every install),
 then catalogs, lifts and builds `build\periodictablerecomp.exe`. A rerun
 skips finished steps; if it stops it says why, and the details are in

@@ -111,8 +111,7 @@ if (-not (Test-Path (Join-Path $Toolkit 'tools\lift\lift32.py'))) {
     if (-not (Get-Command git -ErrorAction SilentlyContinue)) { Fail "Git did not install. Install Git for Windows yourself." }
   }
   if (-not (Ask "  Download it now (git, about 20 MB)?")) { Fail "pcrecomp is required at $Toolkit." }
-  # The VB6 runtime support is on this branch until it is merged.
-  Run "Cloning pcrecomp" @('git', 'clone', '--depth', '1', '-b', 'pcrecomp-periodictable', 'https://github.com/sp00nznet/pcrecomp', $Toolkit)
+  Run "Cloning pcrecomp" @('git', 'clone', '--depth', '1', 'https://github.com/sp00nznet/pcrecomp', $Toolkit)
 }
 Say "  pcrecomp: $Toolkit"
 

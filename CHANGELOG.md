@@ -11,6 +11,7 @@ versions follow [SemVer](https://semver.org/).
 - `setup.sh`, which says there is no Linux or macOS build yet and exits.
 
 ### Changed
+- Builds against pcrecomp main; the `pcrecomp-periodictable` branch is merged.
 - README in the house order; Status says what today's harness reruns show.
 - `NOTICE` is now `NOTICE.md`.
 
