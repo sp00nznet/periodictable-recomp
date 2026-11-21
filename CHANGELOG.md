@@ -5,6 +5,8 @@ versions follow [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-11-20
+
 ### Added
 - `CONTRIBUTING.md`, `CONTRIBUTORS.md`, `docs/building.md` (the step-by-step
   route and the command line, moved out of the README), `docs/testing.md`.
